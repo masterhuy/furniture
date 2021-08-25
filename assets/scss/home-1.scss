@@ -1,0 +1,145 @@
+@import './skins.scss';
+
+
+.fs-pager-wrapper{
+    bottom: 10px;
+    transform: translateX(-50%);
+    left: 50%;
+    top: auto;
+    flex-direction: row;
+}
+.banner-about{
+    position: relative;
+    &::before{
+        content: url("../img/home-1/banner-about-before.png");
+        position: absolute;
+        left: -8px;
+        top: -27px;
+        z-index: -1;
+    }
+    .col-right{
+        .addon-box{
+            padding-left: 40px;
+        }
+    }
+    .title{
+        line-height: 62px;
+        margin-bottom: 26px;
+        margin-top: 9px;
+    }
+    .desc{
+        padding-right: 50px;
+        margin-bottom: 57px;
+    }
+}
+.banner-categories{
+    .layout-column{
+        margin-bottom: 30px;
+    }
+    .pb-banner{
+        overflow: visible;
+        > a{
+            box-shadow: 0px 2px 15px 1px rgba(0, 0, 0, 0.12);
+            border-radius: 15px;
+        }
+    }
+}
+.banner-fullwidth{
+    .col-left{
+        .addon-box{
+            padding-right: 50px;
+        }
+    }
+    .title{
+        margin-bottom: 18px;
+    }
+    .desc{
+        padding-left: 120px;
+        margin-bottom: 34px;
+    }
+    .image-carousel-custom{
+        .owl-stage-outer {
+            padding: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .image{
+            position: relative;
+        }
+        img{
+            border-radius: 15px;
+        }
+        .text{
+            margin-top: 24px;
+            padding-right: 127px;
+        }
+        &.owl-carousel .owl-nav{
+            position: absolute;
+            bottom: auto;
+            right: 0;
+            width: 100px;
+            background: rgba(255,255,255,0.92);
+            height: 46px;
+            border-radius: 10px 0px 0px 0px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 12px;
+            button{
+                position: static;
+                transform: none;
+                width: auto;
+                height: auto;
+                border: none;
+                &:hover path{
+                    stroke: $active;
+                }
+            }
+        }
+    }
+}
+.footer-1{
+	background-color: #222;
+	color: #B2B2B2;
+	.site-logo-text{
+		color: #fff;
+	}
+    .block_newsletter .content{
+        input {
+            background-color: #343434;
+        }
+        .btn-svg{
+            &:hover path{
+                stroke: $active;
+            }
+            path{
+                stroke: #fff;
+            }
+        }
+    }
+	#footer-main{
+		.block .block-title{
+			color: #fff;
+		}
+	}
+	#footer-copyright{
+		.container::before{
+			background-color: #404040;
+		}
+		p{
+			color: #fff;
+		}
+	}
+}
+
+@media (min-width: 1800px){
+    .banner-fullwidth{
+        .col-left{
+            flex: 0 0 56.06%;
+            max-width: 56.06%;
+        }
+        .col-right{
+            flex: 0 0 43.94%;
+            max-width: 43.94%;
+        }
+    }
+}

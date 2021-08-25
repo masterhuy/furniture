@@ -1,0 +1,131 @@
+@import './skins.scss'; 
+
+.banner-categories{
+    position: relative;
+    &::before{
+        content: url("../img/home-2/img1.jpg");
+        position: absolute;
+        top: 48px;
+        left: -6px;
+    }
+    .pb-banner-title{
+        margin-bottom: 4px;
+    }
+    .pb-banner-desc{
+        letter-spacing: 0.4em;
+    }
+}
+.banner-body{
+    position: relative;
+    &::before{
+        content: url("../img/home-2/img2.jpg");
+        position: absolute;
+        top: 22%;
+        right: -9px;
+    }
+    .container > .row{
+        margin-left: 0;
+        margin-right: 0;
+        .layout-column{
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    .pb-banner{
+        margin-bottom: 5px;
+    }
+    .pb-banner-text{
+        right: 50px;
+    }
+    .btn-icon{
+        margin-top: 29px;
+        margin-left: auto;
+    }
+}
+.newsletter-block{
+    position: relative;
+    &::before{
+        content: url("../img/home-2/img3.jpg");
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 30px;
+        z-index: 1;
+    }
+    &::after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left: 52%;
+        z-index: 0;
+    }
+    .title{
+        line-height: 45px;
+        padding-right: 100px;
+        margin-bottom: 7px;
+    }
+    .desc {
+        letter-spacing: 0;
+        line-height: 30px;
+        padding-right: 150px;
+        margin-bottom: 30px;
+    }
+    .block_newsletter{
+        margin-right: 23px;
+        .content{
+            input{
+                padding: 0 23px;
+                height: 60px;
+                border: none;
+                color: #777;
+                &::placeholder{
+                    color: inherit;
+                }
+            }
+            button{
+                height: 60px;
+                padding: 0 22px;
+                svg{
+                    width: 28px;
+                    height: 28px;
+                }
+            }
+        }
+    }
+    .block-socials{
+        margin-top: 50px;
+        .social-links{
+            margin-bottom: 0;
+        }
+        li{
+            margin-right: 12px;
+            a{
+                width: 66px;
+                height: 66px;
+                display: inline-flex;
+                border: 2px solid #fff;
+                border-radius: 50%;
+                justify-content: center;
+                align-items: center;
+                &:hover{
+                    border-color: $active;
+                }
+                path{
+                    stroke: $active;
+                }
+            }
+        }
+    }
+    .pb-image{
+        img{
+            position: absolute;
+            left: 33px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+        }
+    }
+}

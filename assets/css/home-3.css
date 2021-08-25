@@ -1,0 +1,166 @@
+.page-index {
+  background-color: #f4f4f4;
+}
+.page-index .productbox-1 .product-preview {
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.header-3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+.gdz-slider-wrapper .gdz-slide-content.subtitle {
+  letter-spacing: 0.2em;
+}
+.gdz-slider-wrapper .gdz-slide-content.subtitle::before {
+  content: "";
+  width: 0.21vw;
+  height: 84%;
+  background-color: #555;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: -1.26vw;
+}
+
+.fs-pager-wrapper {
+  left: 4.75vw;
+  top: calc(50% + 4vw);
+}
+
+.trending-products .col-left {
+  z-index: 3;
+}
+.trending-products .col-left::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  width: 1000%;
+  height: 100%;
+  background-color: #f4f4f4;
+}
+.trending-products .col-right {
+  z-index: 1;
+}
+.trending-products .col-right .owl-stage-outer {
+  overflow: visible;
+}
+.trending-products .title {
+  line-height: 58px;
+  margin-bottom: 31px;
+  margin-top: 67px;
+}
+.trending-products .pb-text-content h3 {
+  font-size: inherit;
+}
+.trending-products .nav-custom {
+  margin-top: 49px;
+}
+.trending-products .nav-custom .owl-nav {
+  position: static;
+  text-align: left;
+}
+.trending-products .nav-custom .owl-nav button {
+  width: 72px;
+  height: 72px;
+  border: 1px solid #F9B26F;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+}
+.trending-products .nav-custom .owl-nav button:hover {
+  border-color: #4881B7;
+}
+.trending-products .nav-top-right .owl-nav {
+  display: none;
+}
+
+.banner-sale {
+  max-width: 1290px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+.banner-sale .title span {
+  font-size: 0.42em;
+}
+.banner-sale .desc {
+  font-size: inherit;
+  margin-top: -4px;
+}
+.banner-sale .pb-countdown {
+  margin-top: 42px;
+}
+
+.about .addon-box {
+  padding-left: 55px;
+  max-width: 75%;
+}
+.about .title {
+  line-height: 62px;
+  margin-bottom: 15px;
+}
+.about .desc {
+  padding-right: 100px;
+  margin-bottom: 38px;
+}
+.about .position {
+  margin-top: 12px;
+  margin-bottom: 55px;
+}
+
+.pb-testimonial.type-2 {
+  width: 560px;
+  margin-left: -106px;
+}
+
+.about-testimonial img {
+  border-radius: 15px;
+}
+
+.banner-fullwidth .container-fluid > .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.banner-fullwidth .layout-column {
+  padding-left: 0;
+  padding-right: 0;
+}
+.banner-fullwidth .pb-banner-text.pb-banner-bottom-center {
+  left: 50px !important;
+  right: 58px !important;
+  text-align: left !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.banner-fullwidth .pb-banner-text.pb-banner-bottom-center .pb-banner-title {
+  font-family: "SF Pro Display Medium";
+}
+
+.featured-products .owl-carousel .owl-nav button {
+  top: calc(50% - 30px);
+}

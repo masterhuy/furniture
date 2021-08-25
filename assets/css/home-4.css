@@ -1,0 +1,156 @@
+a:hover {
+  color: #FF9900;
+}
+
+.header-4 .site-logo-text {
+  color: #FF9900;
+}
+.header-4 .header-bottom .menu li a:hover path {
+  fill: #FF9900;
+}
+.header-4 #search-form .button-search:hover path {
+  fill: #FF9900;
+}
+
+.header-right .btn-group > a:hover path {
+  fill: #FF9900;
+}
+
+#cart_block .ajax_cart_quantity {
+  background-color: #FF9900;
+}
+
+.btn-icon.secondary {
+  color: #FF9900;
+}
+.btn-icon.secondary:hover i {
+  border-color: #FF9900;
+  background-color: #FF9900;
+}
+.btn-icon.secondary:hover path {
+  stroke: #fff;
+}
+.btn-icon.secondary i {
+  border-color: #fff;
+  background-color: #fff;
+}
+.btn-icon.secondary path {
+  stroke: #FF9900;
+}
+
+.gdz-slider-wrapper:hover .nav-control > a {
+  opacity: 1;
+  visibility: visible;
+}
+.gdz-slider-wrapper:hover .nav-control > a.prev {
+  left: 4.41vw;
+  margin-top: 0;
+}
+.gdz-slider-wrapper:hover .nav-control > a.next {
+  right: 4.41vw;
+}
+.gdz-slider-wrapper .nav-control {
+  position: static;
+  -webkit-transform: none;
+          transform: none;
+}
+.gdz-slider-wrapper .nav-control > a {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 46%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.gdz-slider-wrapper .nav-control > a:hover path {
+  stroke: #FF9900;
+}
+.gdz-slider-wrapper .nav-control > a.prev {
+  left: 4vw;
+  margin-top: 0;
+}
+.gdz-slider-wrapper .nav-control > a.next {
+  right: 4vw;
+}
+.gdz-slider-wrapper .gdz-slide-content.subtitle {
+  letter-spacing: 0.2em;
+}
+.gdz-slider-wrapper .gdz-slide-content.subtitle::before {
+  content: "";
+  width: 0.21vw;
+  height: 84%;
+  background-color: #4881B7;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: -1.26vw;
+}
+
+.service-box {
+  max-width: 1290px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 10px 40px 6px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 10px 40px 6px rgba(0, 0, 0, 0.06);
+  padding: 64px 0 53px;
+  margin-top: -88px;
+  position: relative;
+  z-index: 999;
+}
+.service-box .pb-service-icon {
+  position: relative;
+  bottom: 6px;
+}
+
+.banner-grid .pb-banner {
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+.banner-grid .pb-banner .pb-banner-title {
+  margin-bottom: 29px;
+}
+.banner-grid .pb-banner .pb-banner-title span span {
+  color: #FF9900;
+}
+.banner-grid .pb-banner .pb-banner-desc {
+  font-family: "SF Pro Display Bold";
+}
+.banner-grid .pb-banner .pb-banner-desc sup {
+  font-size: 0.5em;
+  top: -0.7em;
+  margin-left: 0.2em;
+}
+
+.addon-tab .nav.nav-tabs .nav-link.active,
+.addon-tab .nav.nav-tabs .nav-link:hover {
+  color: #FF9900;
+}
+
+.shop-all .btn {
+  text-transform: initial;
+  letter-spacing: 0.03em;
+  background-color: #fff;
+  color: #4881B7;
+  border: 2px solid #E9E9E9;
+  border-radius: 15px;
+  height: 50px;
+  line-height: 45px;
+  padding: 0 52px;
+  font-family: "SF Pro Display Medium";
+}
+.shop-all .btn:hover {
+  color: #fff;
+  background-color: #FF9900;
+  border-color: #FF9900;
+}
+
+@media (max-width: 1366px) {
+  .gdz-slider-wrapper .nav-control > a {
+    top: 50%;
+  }
+}
